@@ -1,3 +1,6 @@
+/*Q3.Write a seleNium scripts to open the Chrome browser ,maximizes the browser window,navigates to the "https://www.wikipedia.org/"
+ * Searches for the query "Artificial Intelligence".Clicks on the "history" section in the search results .and prints the title of the 
+ * section*/
 package com.Task16.Answers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -5,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Q3_wikipedia_org {
-	//static WebDriver driver=null;
-	//static WebElement wb=null;
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver =new ChromeDriver();				//Opens the Chrome Browser
 		driver.get("https://en.wikipedia.org/");			//Navigate to wikipedia url
